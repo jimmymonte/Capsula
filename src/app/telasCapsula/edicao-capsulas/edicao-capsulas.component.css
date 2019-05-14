@@ -1,0 +1,24 @@
+body {
+	background: url('/assets/fundotela.jpg')
+}
+
+.primeirotitulo, .segundotitulo {
+	text-align: center;
+	color: #929292;
+	margin-top: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	font-size: 60px;
+}
+
+.primeirotitulo {
+	padding-left: 175px;
+}
+
+.subtitulo {
+	text-align: center;
+	color: #929292;
+	font-size: 35px;
+	margin-top: 0;
+}

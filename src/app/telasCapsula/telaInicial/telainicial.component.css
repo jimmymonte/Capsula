@@ -1,0 +1,56 @@
+body {
+    background-image: url('/assets/fundotela.jpg');
+}
+
+/*h5 {
+	text-align: center
+}
+*/
+
+a {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.avatares {
+	border-radius: 100px;
+	border: 2px solid #08A5D3;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+	margin-top: 25px;
+}
+
+.tituloeditar {
+	color:#08A5D3;
+	font-size: 30px;
+	font-family: "helvetica";
+	text-align: center;
+}
+
+/*.tituloavatar {
+	color:#F27D00;
+	font-size: 50px;
+	font-family: "helvetica";
+}*/
+
+.linknovacapsula {
+	font-family: "helvetica";
+	font-size: 25px;
+	text-align: right;
+	margin-right: 15%;
+}
+
+.btn.waves-effect.waves-light {
+	border-radius: 17px;
+	color: #f27d00;
+	font-size: 30px;
+	font-family: "helvetica";
+	background-color: white;
+	border: 2px solid #08a5d3;
+	text-transform: lowercase;
+	width: 60%;
+	height: 90%
+}
