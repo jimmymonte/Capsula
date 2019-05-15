@@ -54,3 +54,7 @@ a {
 	width: 60%;
 	height: 90%
 }
+
+li {
+    list-style-type: none;
+}

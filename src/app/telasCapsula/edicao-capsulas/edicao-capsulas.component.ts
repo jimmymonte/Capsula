@@ -10,6 +10,7 @@ export class EdicaoCapsulasComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
