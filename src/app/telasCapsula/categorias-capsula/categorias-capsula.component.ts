@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+declare var $: any;
+import * as $ from 'jquery';  
 
 
 @Component({
@@ -11,6 +13,9 @@ export class CategoriasCapsulaComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $(document).ready(function(){
+      $('.modal').modal();
+    });
   }
 
 }
