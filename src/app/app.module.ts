@@ -18,7 +18,7 @@ import { CategoriasCapsulaComponent } from './telasCapsula/categorias-capsula/ca
     TelainicialComponent,
     DadosDestinatariosComponent,
     DadosCapsulaComponent,
-    CategoriasCapsulaComponent
+    CategoriasCapsulaComponent,
   ],
   imports: [
     BrowserModule,

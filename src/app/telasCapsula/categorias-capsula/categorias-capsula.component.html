@@ -32,8 +32,6 @@
         </div>
         <div class="col s2">
 
-                <button mat-button (click)="openDialog()">Open dialog</button>
-
                 <!-- Modal Structure -->
                 <div id="modal1" class="modal">
                     <div class="modal-content">
@@ -46,7 +44,7 @@
                 </div>
             <div class="linksedicao">
                 <h5>inspiracoes</h5>
-                <a href='#modal1' class="modal-trigger" (click)="openDialog()"><h5>criar nova categoria</h5></a>               
+                <a href='#modal1' class="modal-trigger" mat-button (click)="openDialog()"><h5>criar nova categoria</h5></a>               
             </div>
         </div>
     </div>
