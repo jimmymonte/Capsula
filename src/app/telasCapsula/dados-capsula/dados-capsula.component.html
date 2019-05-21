@@ -1,0 +1,51 @@
+<app-navbar></app-navbar>
+<body>
+  <div>
+    <p class="subtitulo">Dados do Receptor</p>
+    <br>
+  </div>
+  <div class="teladadosdacapsula">
+      <div>
+          <form action="">
+            <div class="row">
+              <div class="col s12 m2"></div>
+              <div class="col s12 m2">
+                <label class="inputnome" for="nome">nome</label>
+              </div>
+              <div class="col s2 m4">
+                <input type="text" id="nome" name="nome">
+              </div>
+              <div class="col s12 m4"></div>
+            </div>
+          </form> 
+      </div> 
+     <div>
+        <div class="row">
+          <div class="col s12 m2"></div>
+          <div class="col s12 m2">
+            <p id="itemopcional1">imagem<br>de capa<br>(opcional)</p>
+          </div>
+          <div class="col s12 m1">
+          <img class="botaoadd" height="140" width="140" src="/assets/botaoadd.png" alt="botaoadicionar">
+          </div>
+          <div class="col s12 m2">
+              <p id="itemopcional2">arquivo de<br>boas-vidas<br>(opcional)</p>
+          </div>   
+          <div class="col s12 m1">
+          <img class="botaoadd2" height="140" width="140" src="/assets/botaoadd.png" alt="botaoadicionar">
+          </div>
+          <div class="col s12 m4"></div>
+        </div>    
+      </div> 
+      <div id="rodapedadosdacapsula">
+          <div class="row">
+            <div class="col s12 m4"></div>
+            <div class="col s12 m2"></div>
+            <div class="col s12 m2">
+              <a routerLinkActive="active" routerlink="/telainicial" id="botao" class="waves-effect waves-light btn">salvar</a>
+            </div>
+            <div class="col 12 m4"></div>
+          </div>
+      </div>
+  </div>
+</body>

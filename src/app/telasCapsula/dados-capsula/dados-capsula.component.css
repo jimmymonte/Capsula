@@ -1,0 +1,124 @@
+body {
+	background: url('/assets/fundotela.jpg')
+}
+
+.primeirotitulo, .segundotitulo {
+	text-align: center;
+	color: #929292;
+	margin-top: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	font-size: 60px;
+}
+
+.primeirotitulo {
+	padding-left: 175px;
+}
+
+.subtitulo {
+	text-align: center;
+	color: #929292;
+	font-size: 35px;
+	margin-top: 0;
+}
+
+#itemopcional1 {
+	float: right;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: #929292;
+}
+
+#itemopcional2 {
+	float: center;
+	margin-left: 20px;
+	padding-left: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	color: #929292;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.inputnome {
+	text-align: right;
+	float: right;
+}
+
+.inputsobrenome {
+	float: right;
+}
+
+.inputapelido {
+	float: right
+}
+
+.inputemail {
+	float: right;
+}
+
+.inputtelefone {
+	float: right;
+}
+
+.inputcpf {
+	float: right;
+}
+
+input[type=text] {
+  background-color: white;
+  border-color: #08A5D3;
+  padding: 12px 20px;
+  border-radius: 50px;
+  padding: 0;
+}
+
+.inline-radio {
+	display: flex;
+	position: absolute;
+}
+
+.radiosimnao {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #08A5D3;
+	font-size: 35px;
+	width: 203px;
+	height: 20px;
+}
+
+.linknovodestinatario {
+	font-family: "helvetica";
+	font-size: 20px;
+	text-align: right;
+	margin-right: 15%;
+}
+
+.btn.waves-effect.waves-light {
+	border-radius: 17px;
+	color: white;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #08A5D3;
+	text-transform: uppercase;;
+	width: 60%;
+	height: 50px;
+	float: right;
+}

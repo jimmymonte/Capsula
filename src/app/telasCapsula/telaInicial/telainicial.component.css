@@ -1,5 +1,19 @@
+.navbardireita {
+    align-content: right;
+    align-items: right;
+}
+
+nav {
+    background-color: #11A5D3;
+    height: 50px;
+}
+
+nav.nav-center ul {
+    text-align: center;
+}
+
 body {
-    background-image: url('/assets/fundotela.jpg');
+    background-color: #fcfcfc;
 }
 
 /*h5 {
@@ -30,29 +44,33 @@ a {
 	text-align: center;
 }
 
-/*.tituloavatar {
-	color:#F27D00;
-	font-size: 50px;
-	font-family: "helvetica";
-}*/
-
-.linknovacapsula {
-	font-family: "helvetica";
-	font-size: 25px;
-	text-align: right;
-	margin-right: 15%;
+#avatar1 {
+	align-content: center;
+	text-align: center;
 }
 
-.btn.waves-effect.waves-light {
-	border-radius: 17px;
+#avatar2 {
+	align-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+#avatar3 {
+	align-content: center;
+	text-align: center;
+}
+
+.btn-flat.waves-effect.waves-teal {
 	color: #f27d00;
 	font-size: 30px;
 	font-family: "helvetica";
-	background-color: white;
-	border: 2px solid #08a5d3;
-	text-transform: lowercase;
+	background: none;
 	width: 60%;
-	height: 90%
+	height: 90%;
+	text-transform:none;
+	padding: 0;
+	font-weight: 100;
+	
 }
 
 li {

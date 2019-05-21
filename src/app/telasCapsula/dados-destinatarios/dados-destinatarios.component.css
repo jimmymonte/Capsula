@@ -2,27 +2,12 @@ body {
 	background: url('/assets/fundotela.jpg')
 }
 
-.primeirotitulo, .segundotitulo {
-	text-align: center;
-	color: #929292;
-	margin-top: 0;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	font-size: 60px;
-}
-
-.primeirotitulo {
-	padding-left: 175px;
-}
-
 .subtitulo {
 	text-align: center;
 	color: #929292;
 	font-size: 35px;
 	margin-top: 0;
 }
-
 
 input[type=text], select, textarea {
   width: 100%;
@@ -79,14 +64,6 @@ input[type=text] {
 	position: absolute;
 }
 
-.radiosimnao {
-	font-family: Arial, Helvetica, sans-serif;
-	color: #08A5D3;
-	font-size: 35px;
-	width: 203px;
-	height: 20px;
-}
-
 .linknovodestinatario {
 	font-family: "helvetica";
 	font-size: 20px;
@@ -104,4 +81,10 @@ input[type=text] {
 	width: 60%;
 	height: 50px;
 	float: right;
+}
+
+input[type=radio] {
+	font-size:40px;
+	color:#08A5D3; 
+	display: inline;
 }

@@ -7,15 +7,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TelainicialComponent } from './telasCapsula/telaInicial/telainicial.component';
-import { EdicaoCapsulasComponent } from './telasCapsula/edicao-capsulas/edicao-capsulas.component';
+import { DadosDestinatariosComponent } from './telasCapsula/dados-destinatarios/dados-destinatarios.component';
+import { DadosCapsulaComponent } from './telasCapsula/dados-capsula/dados-capsula.component';
+import { CategoriasCapsulaComponent } from './telasCapsula/categorias-capsula/categorias-capsula.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    EdicaoCapsulasComponent,
     TelainicialComponent,
-    EdicaoCapsulasComponent
+    DadosDestinatariosComponent,
+    DadosCapsulaComponent,
+    CategoriasCapsulaComponent
   ],
   imports: [
     BrowserModule,
