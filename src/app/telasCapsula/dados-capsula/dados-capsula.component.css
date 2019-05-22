@@ -1,19 +1,28 @@
+/*navbar*/
+
+nav {
+    background-color: #11A5D3;
+    height: 50px;
+}
+
+nav img {
+	position: relative;
+	left: 150px;
+	top: -5px;
+}
+
+nav li {
+	position: relative;
+	left: 320px;
+	top: -8px;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-type: none;
+}
+
+/*body*/
 body {
-	background: url('/assets/fundotela.jpg')
-}
-
-.primeirotitulo, .segundotitulo {
-	text-align: center;
-	color: #929292;
-	margin-top: 0;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	font-size: 60px;
-}
-
-.primeirotitulo {
-	padding-left: 175px;
+	background-color: #fcfcfc;
 }
 
 .subtitulo {
@@ -63,45 +72,12 @@ label {
 	float: right;
 }
 
-.inputsobrenome {
-	float: right;
-}
-
-.inputapelido {
-	float: right
-}
-
-.inputemail {
-	float: right;
-}
-
-.inputtelefone {
-	float: right;
-}
-
-.inputcpf {
-	float: right;
-}
-
 input[type=text] {
   background-color: white;
   border-color: #08A5D3;
   padding: 12px 20px;
   border-radius: 50px;
   padding: 0;
-}
-
-.inline-radio {
-	display: flex;
-	position: absolute;
-}
-
-.radiosimnao {
-	font-family: Arial, Helvetica, sans-serif;
-	color: #08A5D3;
-	font-size: 35px;
-	width: 203px;
-	height: 20px;
 }
 
 .linknovodestinatario {
@@ -121,4 +97,20 @@ input[type=text] {
 	width: 60%;
 	height: 50px;
 	float: right;
+}
+
+#botaoadd {
+	position: relative;
+	left:-115px;
+	right:0;
+	top:-130px;
+	bottom:0;
+}
+
+#botaoadd2 {
+	position: relative;
+	left:-175px;
+	right:0;
+	top:-130px;
+	bottom:0;
 }

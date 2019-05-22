@@ -1,7 +1,17 @@
-<app-navbar></app-navbar>
 <body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo"><img src="/assets/capsulabranca.png" alt="logo" width="130vw"></a>
+          <a routerLinkActive="active" routerLink="/telainicial" class="linkinicio"><li>Início</li></a>
+          <ul class ="navbardireita" id="nav-mobile" class="right hide-on-med-and-down">
+          </ul>
+        </div>
+      </nav>
+
+<br>
+
   <div>
-    <p class="subtitulo">Dados do Receptor</p>
+    <p class="subtitulo">Dados da Cápsula</p>
     <br>
   </div>
   <div class="teladadosdacapsula">
@@ -26,13 +36,13 @@
             <p id="itemopcional1">imagem<br>de capa<br>(opcional)</p>
           </div>
           <div class="col s12 m1">
-          <img class="botaoadd" height="140" width="140" src="/assets/botaoadd.png" alt="botaoadicionar">
+          <img id="botaoadd" height="400" width="400" src="/assets/adicionar.png" alt="botaoadicionar">
           </div>
           <div class="col s12 m2">
               <p id="itemopcional2">arquivo de<br>boas-vidas<br>(opcional)</p>
           </div>   
           <div class="col s12 m1">
-          <img class="botaoadd2" height="140" width="140" src="/assets/botaoadd.png" alt="botaoadicionar">
+          <img id="botaoadd2" height="400" width="400" src="/assets/adicionar.png" alt="botaoadicionar">
           </div>
           <div class="col s12 m4"></div>
         </div>    
@@ -41,8 +51,8 @@
           <div class="row">
             <div class="col s12 m4"></div>
             <div class="col s12 m2"></div>
-            <div class="col s12 m2">
-              <a routerLinkActive="active" routerlink="/telainicial" id="botao" class="waves-effect waves-light btn">salvar</a>
+            <div class="col s12 m2" id="divsalvar">
+              <a id="botao" class="waves-effect waves-light btn" href="#">salvar</a>
             </div>
             <div class="col 12 m4"></div>
           </div>

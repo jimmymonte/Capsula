@@ -1,3 +1,27 @@
+/*navbar*/
+
+nav {
+    background-color: #11A5D3;
+    height: 50px;
+}
+
+nav img {
+	position: relative;
+	left: 150px;
+	top: -5px;
+}
+
+nav li {
+	position: relative;
+	left: 320px;
+	top: -8px;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-type: none;
+}
+
+/*body*/
+
 body {
 	background: url('/assets/fundotela.jpg')
 }
@@ -64,12 +88,20 @@ input[type=text] {
 	position: absolute;
 }
 
-.linknovodestinatario {
+#link2 {
 	font-family: "helvetica";
 	font-size: 20px;
 	text-align: right;
 	margin-right: 15%;
 }
+
+/*
+.linknovodestinatario {
+	font-family: "helvetica";
+	font-size: 20px;
+	text-align: right;
+	margin-right: 15%;
+}*/
 
 .btn.waves-effect.waves-light {
 	border-radius: 17px;

@@ -1,7 +1,18 @@
-<app-navbar></app-navbar>
+<nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo"><img src="/assets/capsulabranca.png" alt="logo" width="130vw"></a>
+          <a routerLinkActive="active" routerLink="/telainicial" class="linkinicio"><li>Início</li></a>
+          <ul class ="navbardireita" id="nav-mobile" class="right hide-on-med-and-down">
+          </ul>
+        </div>
+      </nav>
+
+<br>
 <body>
-        <div class="imgluisa">
-                <img height="150px" width="150px" src="/assets/avatarluisa.jpg" alt="avatarluisa">
+
+<div>
+        <div >
+                <img class="imgluisa" height="150px" width="150px" src="/assets/avatarluisa.jpg" alt="avatarluisa">
             </div>
     <div class="row">
         <div class="col s2">
@@ -30,22 +41,34 @@
                 <p>confissōes</p>
             </div>
         </div>
-        <div class="col s2">
-
-                <!-- Modal Structure -->
-                <div id="modal1" class="modal">
-                    <div class="modal-content">
-                    <h4>Modal Header</h4>
-                    <p>A bunch of text</p>
-                    </div>
-                    <div class="modal-footer">
-                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-                    </div>
-                </div>
+        <div class="col s2">                
             <div class="linksedicao">
                 <h5>inspiracoes</h5>
                 <a data-target="modal1" class="modal-trigger" mat-button (click)="openDialog()"><h5>criar nova categoria</h5></a>               
             </div>
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4>nova categoria</h4>
+                    <label class="inputnome" for="nome">nome:</label><br>
+                    <br>
+                    <input type="text" id="nome" name="nome"><br>
+                    <div class="botoescores">
+                        <p>cor:</p>
+                        <button class="botao1"></button>
+                        <button class="botao2"></button>
+                        <button class="botao3"></button>
+                        <button class="botao4"></button>
+                        <button class="botao5"></button>
+                        <button class="botao6"></button>
+                        <button class="botao7"></button>
+                        <button class="botao8"></button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a class="modal-close waves-effect waves-green btn-flat" routerlinkActive="active" routerLink="/categoriascapsula">salvar</a>
+                </div>
+            </div>
         </div>
     </div>
+</div>
 </body>

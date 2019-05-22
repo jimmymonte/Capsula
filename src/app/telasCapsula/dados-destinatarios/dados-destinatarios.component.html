@@ -1,128 +1,139 @@
-<app-navbar></app-navbar>
 <body>
-  <div>  
-      <p class="subtitulo">Dados dos Destinatário</p>
-    </div>
-  
-  <div class="teladadosdodestinatario">
-      <div>
-          <form action="">
-            <div class="row">
-              <div class="col s12 m2"></div>
-              <div class="col s12 m2">
-                <label class="inputnome" for="nome">nome</label>
-              </div>
-              <div class="col s2 m4">
-                <input type="text" id="nome" name="nome">
-              </div>
-              <div class="col s12 m3"></div>
-            </div>
-          </form> 
+
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><img src="/assets/capsulabranca.png" alt="logo" width="130vw"></a>
+        <a routerLinkActive="active" routerLink="/telainicial" class="linkinicio"><li>Início</li></a>
+        <ul class ="navbardireita" id="nav-mobile" class="right hide-on-med-and-down">
+        </ul>
       </div>
-      <div>
-          <form action="">
-            <div class="row">
-              <div class="col s12 m2"></div>
-              <div class="col s12 m2">
-                <label class="inputsobrenome" for="sobrenome">sobrenome</label>
-              </div>
-              <div class="col s2 m4">
-                <input type="text" id="sobrenome" name="sobrenome">
-              </div>
-              <div class="col s12 m3"></div>
-            </div>
-          </form> 
-      </div>
-      <div>
-        <div>
-          <form action="">
-            <div class="row">
-              <div class="col s12 m2"></div>
-              <div class="col s12 m2">
-                <label class="inputapelido" for="apelido">apelido</label>
-              </div>
-              <div class="col s2 m4">
-                <input type="text" id="apelido" name="apelido">
-              </div>
-              <div class="col s12 m3"></div>
-            </div>
-          </form> 
-          <form action="">
-            <div class="row">
-              <div class="col s12 m2"></div>
-              <div class="col s12 m2">
-                <label class="inputemail" for="apelido">e-mail</label>
-              </div>
-              <div class="col s2 m4">
-                <input type="text" id="e-mail" name="e-mail">
-              </div>
-              <div class="col s12 m3"></div>
-            </div>
-          </form> 
-          <form action="">
-            <div class="row">
-              <div class="col s12 m2"></div>
-              <div class="col s12 m2">
-                <label class="inputtelefone" for="apelido">telefone</label>
-              </div>
-              <div class="col s2 m4">
-                <input type="text" id="telefone" name="telefone">
-              </div>
-              <div class="col s12 m3"></div>
-            </div>
-          </form> 
-          <form action="">
-            <div class="row">
-              <div class="col s12 m2"></div>
-              <div class="col s12 m2">
-                <label class="inputcpf" for="apelido">cpf</label>
-              </div>
-              <div class="col s2 m4">
-                <input type="text" id="cpf" name="cpf">
-              </div>
-              <div class="col s12 m3"></div>
-              </div>
-          </form>
-      </div>
-      <div>
-            <form action="">
-              <div class="row">
-                <div class="col s12 m2"></div>
-                <div class="col s12 m2">
-                  <label class="inputnome" for="nome">beneficiário<br>financeiro</label>
-                </div>
-                <div class="col s12 m2">
-                  <p>
-                    <label>
-                        <input class="with-gap" id="choice_1"  name="group1" type="radio" />
-                        <label style="font-size:40px; color: #08A5D3; display: inline; vertical-align: middle';" for="choice_1">sim</label>
-                      </label>
-                  </p>
-                </div>
-                <div class="col s12 m2">
-                  <p>
-                    <label>
-                        <input class="with-gap" id="choice_2"  name="group1" type="radio" />
-                        <label style="font-size:40px; color: #08A5D3; display: inline;" for="choice_2">não</label>
-                    </label>
-                  </p>
-                </div>
-                <div class="col s12 m3"></div>
-              </div>
-            </form> 
-        </div> 
-      </div>
-    <div id="rodapedadosdodestinatario">
-      <div class="row">
-        <div class="col s12 m4"></div>
-        <div class="col s12 m2">
-          <a routerLinkActive="active" routerLink="/edicaodestinatarios"><p class="linknovodestinatario">+ adicionar novo destinatário</p></a>
+    </nav>
+    
+    <br>
+      <div>  
+          <p class="subtitulo">Dados dos Destinatários</p>
         </div>
-        <div class="col s12 m2">
-          <a routerLinkActive="active" routerLink="/edicaocapsula" id="botao" class="waves-effect waves-light btn">salvar</a>
+      
+      <div class="teladadosdodestinatario">
+          <div>
+              <form action="">
+                <div class="row">
+                  <div class="col s12 m2"></div>
+                  <div class="col s12 m2">
+                    <label class="inputnome" for="nome">nome</label>
+                  </div>
+                  <div class="col s2 m4">
+                    <input type="text" id="nome" name="nome">
+                  </div>
+                  <div class="col s12 m3"></div>
+                </div>
+              </form> 
+          </div>
+          <div>
+              <form action="">
+                <div class="row">
+                  <div class="col s12 m2"></div>
+                  <div class="col s12 m2">
+                    <label class="inputsobrenome" for="sobrenome">sobrenome</label>
+                  </div>
+                  <div class="col s2 m4">
+                    <input type="text" id="sobrenome" name="sobrenome">
+                  </div>
+                  <div class="col s12 m3"></div>
+                </div>
+              </form> 
+          </div>
+          <div>
+            <div>
+              <form action="">
+                <div class="row">
+                  <div class="col s12 m2"></div>
+                  <div class="col s12 m2">
+                    <label class="inputapelido" for="apelido">apelido</label>
+                  </div>
+                  <div class="col s2 m4">
+                    <input type="text" id="apelido" name="apelido">
+                  </div>
+                  <div class="col s12 m3"></div>
+                </div>
+              </form> 
+              <form action="">
+                <div class="row">
+                  <div class="col s12 m2"></div>
+                  <div class="col s12 m2">
+                    <label class="inputemail" for="apelido">e-mail</label>
+                  </div>
+                  <div class="col s2 m4">
+                    <input type="text" id="e-mail" name="e-mail">
+                  </div>
+                  <div class="col s12 m3"></div>
+                </div>
+              </form> 
+              <form action="">
+                <div class="row">
+                  <div class="col s12 m2"></div>
+                  <div class="col s12 m2">
+                    <label class="inputtelefone" for="apelido">telefone</label>
+                  </div>
+                  <div class="col s2 m4">
+                    <input type="text" id="telefone" name="telefone">
+                  </div>
+                  <div class="col s12 m3"></div>
+                </div>
+              </form> 
+              <form action="">
+                <div class="row">
+                  <div class="col s12 m2"></div>
+                  <div class="col s12 m2">
+                    <label class="inputcpf" for="apelido">cpf</label>
+                  </div>
+                  <div class="col s2 m4">
+                    <input type="text" id="cpf" name="cpf">
+                  </div>
+                  <div class="col s12 m3"></div>
+                  </div>
+              </form>
+          </div>
+          <div>
+                <form action="">
+                  <div class="row">
+                    <div class="col s12 m2"></div>
+                    <div class="col s12 m2">
+                      <label class="inputnome" for="nome">beneficiário<br>financeiro</label>
+                    </div>
+                    <div class="col s12 m2">
+                      <p>
+                        <label>
+                            <input class="with-gap" id="choice_1"  name="group1" type="radio" />
+                            <label style="font-size:40px; color: #08A5D3; display: inline; vertical-align: middle';" for="choice_1">sim</label>
+                          </label>
+                      </p>
+                    </div>
+                    <div class="col s12 m2">
+                      <p>
+                        <label>
+                            <input class="with-gap" id="choice_2"  name="group1" type="radio" />
+                            <label style="font-size:40px; color: #08A5D3; display: inline;" for="choice_2">não</label>
+                        </label>
+                      </p>
+                    </div>
+                    <div class="col s12 m3"></div>
+                  </div>
+                </form> 
+            </div> 
+          </div>
+        <div id="rodapedadosdodestinatario">
+          <div class="row">
+            <div class="col s12 m4"></div>
+            <div class="col s12 m2">
+              <a routerLinkActive="active" routerLink="/edicaodestinatarios" id="link2"><!--<p class="linknovodestinatario">-->+ adicionar novo destinatário<!--</p>--></a>
+            </div>
+            <div class="col s12 m2">
+              <a routerLinkActive="active" routerLink="/edicaocapsula" id="botao" class="waves-effect waves-light btn">salvar</a>
+            </div>
+            <div class="col 12 m4"></div>
+            </div>
         </div>
-        <div class="col 12 m4"></div>
-        </div>
-    </div>
-  </div>
-</body>
+      </div>
+    </body>
+    

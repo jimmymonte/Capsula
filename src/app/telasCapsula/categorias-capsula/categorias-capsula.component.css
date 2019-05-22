@@ -1,3 +1,27 @@
+/*nav*/
+
+nav {
+  background-color: #11A5D3;
+  height: 50px;
+}
+
+nav img {
+position: relative;
+left: 150px;
+top: -5px;
+}
+
+nav li {
+position: relative;
+left: 320px;
+top: -8px;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+list-style-type: none;
+}
+
+/*body*/
+
 h2 {
     color:#F27D00;
     font-family: Aileron;
@@ -16,12 +40,18 @@ h5 {
     bottom: 0;
 }
 
-img {
+.imgluisa {
     position: fixed;
     border-radius: 50%;
     border: 2px solid #08A5D3;
     left: 650px;
     top: 340px;
+}
+
+.fixed p {
+  text-align: center;
+  align-content: center;
+  text-align: center;
 }
 
 div.fixed {
@@ -43,7 +73,6 @@ div.fixed1 {
     background-color:#347D3E;
   }
   
-  
 div.fixed2 {
     bottom: 100px;
     left: 80px;
@@ -51,7 +80,6 @@ div.fixed2 {
     top: 140px;
     background-color:#6D4592;
   }
-  
   
 div.fixed3 {
     bottom: 0px;
@@ -75,4 +103,95 @@ div.fixed5 {
     right: 0px;
     left: 600px;
     background-color:#B8423E;
+}
+
+.modal {
+  border-radius: 25px;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #08A5D3;
+
+}
+
+button {
+  border-radius: 50px;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+}
+
+.botao1 {
+  background-color: #6D4592;
+}
+
+.botao2 {
+  background-color: #E6B627;
+}
+
+.botao3 {
+  background-color: #B8423E;
+}
+
+.botao4 {
+  background-color: #347D3E;
+}
+
+.botao5 {
+  background-color: #49AF57;
+}
+
+.botao6 {
+  background-color: #3BC8BC;
+}
+
+.botao7 {
+  background-color: #F27D00;
+}
+
+.botao8 {
+  background-color: #11A5D3;
+}
+
+/* modal */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+input[type=text] {
+  background-color: white;
+  border-color: #08A5D3;
+  padding: 12px 20px;
+  border-radius: 50px;
+  padding: 0;
+}
+
+.btn.waves-effect.waves-light {
+	border-radius: 17px;
+	color: white;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #08A5D3;
+	text-transform: uppercase;;
+	width: 60%;
+	height: 50px;
+	float: right;
+}
+
+.inputnome {
+  color: #08A5D3;
+  font-size: 20px;
+}
+
+.botoescores p {
+  color: #08A5D3;
+  font-size: 20px;
 }
