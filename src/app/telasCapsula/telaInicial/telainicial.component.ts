@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./telainicial.component.css']
 })
 export class TelainicialComponent implements OnInit {
-
+  aparece: any = true;
   constructor() { }
 
   ngOnInit() {
-  }
 
+  }
+  changeIcon(){
+    if(this.aparece == true)
+      this.aparece = false;
+    else{
+      this.aparece = true;
+    }
+  }
 }

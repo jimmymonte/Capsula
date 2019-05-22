@@ -43,7 +43,7 @@
         </div>
         <div class="col s2">                
             <div class="linksedicao">
-                <h5>inspiracoes</h5>
+                    <a data-target="modal2" class="modal-trigger" mat-button (click)="randomQuestion()"><h5>inspiraçoes</h5></a>
                 <a data-target="modal1" class="modal-trigger" mat-button (click)="openDialog()"><h5>criar nova categoria</h5></a>               
             </div>
             <div id="modal1" class="modal">
@@ -63,6 +63,14 @@
                         <button class="botao7"></button>
                         <button class="botao8"></button>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <a class="modal-close waves-effect waves-green btn-flat" routerlinkActive="active" routerLink="/categoriascapsula">salvar</a>
+                </div>
+            </div>
+            <div id="modal2" class="modal">
+                <div class="modal-content">
+                    <h2>{{perguntas[daVez]}}</h2>
                 </div>
                 <div class="modal-footer">
                     <a class="modal-close waves-effect waves-green btn-flat" routerlinkActive="active" routerLink="/categoriascapsula">salvar</a>
