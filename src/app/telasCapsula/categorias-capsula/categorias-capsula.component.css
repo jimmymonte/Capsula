@@ -11,8 +11,15 @@ left: 150px;
 top: -5px;
 }
 
+nav .engrenagem {
+  position: relative;
+left: 900px;
+top: 18px;
+}
+
 nav li {
 position: relative;
+width: 30%;
 left: 320px;
 top: -8px;
 font-size: 25px;
@@ -27,6 +34,13 @@ h2 {
     font-family: Aileron;
     font-size: 80px;
     margin-left: 80px;
+}
+
+h3 {
+  color:#F27D00;
+  font-family: Aileron;
+  font-size: 60px;
+  margin-left: 80px;
 }
 
 h5 {
@@ -71,6 +85,7 @@ div.fixed1 {
     right: 0px;
     left: 680px;
     background-color:#347D3E;
+    display: table; 
   }
   
 div.fixed2 {
@@ -194,4 +209,27 @@ input[type=text] {
 .botoescores p {
   color: #08A5D3;
   font-size: 20px;
+}
+
+
+/* alinhar botoes */
+
+.fixed1 p {
+  text-align: center;
+  line-height: 100px;
+}
+
+.fixed2 p {
+  text-align: center;
+  line-height: 100px;
+}
+
+.fixed4 p {
+  text-align: center;
+  line-height: 100px;
+}
+
+.fixed5 p {
+  text-align: center;
+  line-height: 100px;
 }

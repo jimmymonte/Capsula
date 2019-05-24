@@ -1,12 +1,15 @@
-.navbardireita {
-    align-content: right;
-    align-items: right;
+nav {
+    position: fixed;
+ background-color: #11A5D3;
+ height: 50px;
+}
+  
+nav img {
+ position: relative;
+ left: 150px;
+ top: -5px;
 }
 
-nav {
-    background-color: #11A5D3;
-    height: 50px;
-}
 
 nav.nav-center ul {
     text-align: center;
