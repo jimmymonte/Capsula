@@ -10,6 +10,9 @@ export class MelhoresMomentosAlfaComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
+    $("div#receiveFile").dropzone({ url: "/file/post" });
+
   }
 
 }
