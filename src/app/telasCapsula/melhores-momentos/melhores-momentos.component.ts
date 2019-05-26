@@ -9,8 +9,8 @@ import * as $ from 'jquery';
 })
 export class MelhoresMomentosComponent implements OnInit {
 
-  foto: string;
-  idDiv: string;
+  // foto: string;
+  // idDiv: string;
 
   constructor() { }
 
@@ -18,86 +18,142 @@ export class MelhoresMomentosComponent implements OnInit {
 
   }
 
-  selecionarfoto(f: string) {
-    $(`#${this.idDiv}`).attr('src', f);
-  }
-
-
-
-  selecionadiv(id: string) {
-
-    this.idDiv = id;
-  }
-
-  openDialog() {
-    console.log(15);
-
+  openDialog1() {
     $('#big1').click(function(){
       $('.modal').modal();
     });
 
+    $("img.thumbnail").click(function(ev){   
+    $("#replaceMeBig1").attr("src", $(ev.target).attr("src"));
+    });
+  }
+
+  openDialog2 () {
     $('#big2').click(function(){
       $('.modal').modal();
     });
 
+    $("img.thumbnail").click(function(ev){   
+    $("#replaceMeBig2").attr("src", $(ev.target).attr("src"));
+    });
+  }
+
+  openDialog3 () {
     $('#big3').click(function(){
       $('.modal').modal();
     });
 
+    $("img.thumbnail").click(function(ev){   
+    $("#replaceMeBig3").attr("src", $(ev.target).attr("src"));
+    });
+  }
+
+  openDialog4 () {
     $('#big4').click(function(){
       $('.modal').modal();
     });
 
+    $("img.thumbnail").click(function(ev){   
+    $("#replaceMeBig4").attr("src", $(ev.target).attr("src"));
+    });
+  }
+
+  openDialog5 () {
     $('#big5').click(function(){
       $('.modal').modal();
     });
 
+    $("img.thumbnail").click(function(ev){   
+    $("#replaceMeBig5").attr("src", $(ev.target).attr("src"));
+    });
+  }
+
+  openDialog6 () {
     $('#big6').click(function(){
       $('.modal').modal();
     });
 
+    $("img.thumbnail").click(function(ev){   
+    $("#replaceMeBig6").attr("src", $(ev.target).attr("src"));
+    });
+  }
+
+  openDialog7 () {
     $('#big7').click(function(){
       $('.modal').modal();
     });
+
+    $("img.thumbnail").click(function(ev){   
+    $("#replaceMeBig7").attr("src", $(ev.target).attr("src"));
+    });
+  }
+
+}
+
+
+  // selecionarfoto(f: string) {
+  //   $(`#${this.idDiv}`).attr('src', f);
+  // }
+
+
+
+  // selecionadiv(id: string) {
+
+  //   this.idDiv = id;
+  // }
+
+  
+    // $('#big3').click(function(){
+    //   $('.modal').modal();
+    // });
+
+    // $('#big4').click(function(){
+    //   $('.modal').modal();
+    // });
+
+    // $('#big5').click(function(){
+    //   $('.modal').modal();
+    // });
+
+    // $('#big6').click(function(){
+    //  $('.modal').modal();
+    // });
+
+    // $('#big7').click(function(){
+    //  $('.modal').modal();
+    //});
   
     // $("img.thumbnail").click(function(ev){
     //   $(".big>img").attr("src", $(ev.target).attr("src"));
     // });  
 
-    $("img.thumbnail").click(function(ev){
+  // trocaFoto2 (id:string) {
+
+    // $('#big2').click(function(){
+    //  $('.modal').modal();
+    // });
+
+    // $("img.thumbnail").click(function(ev){
     
-    $("#replaceMeBig1").attr("src", $(ev.target).attr("src"));
+    // $(id).attr("src", $(ev.target).attr("src"));
 
-    });
-  }
+    // });
+  
 
-    trocaFoto2 (id:string) {
-
-    $('#big2').click(function(){
-      $('.modal').modal();
-    });
-
-    $("img.thumbnail").click(function(ev){
-    
-    $(id).attr("src", $(ev.target).attr("src"));
-
-    });
-  }
-
-    trocaFoto3 (id:string) {
+    // trocaFoto3 (id:string) {
 
 
-      $('#big3').click(function(){
-        $('.modal').modal();
-      });
+    //  $('#big3').click(function(){
+    //     $('.modal').modal();
+    //   });
 
 
-      $("img.thumbnail").click(function(ev){
-      $(id).attr("src", $(ev.target).attr("src"));
+    //  $("img.thumbnail").click(function(ev){
+    //   $(id).attr("src", $(ev.target).attr("src"));
 
-    });
-    }
-    }  // console.log($(ev.target).attr("src"));      
+    // });
+    // }
+    // }  // console.log($(ev.target).attr("src"));      
       
 
 

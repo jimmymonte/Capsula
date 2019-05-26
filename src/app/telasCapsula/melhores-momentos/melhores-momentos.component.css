@@ -149,9 +149,10 @@ div.big7 {
     border-radius: 20px;
 }
 
-ul li img {
+.modal1 ul li img {
     display: inline;
-    padding-left: 20px;
+    padding: auto;
+    margin: auto;
 }
 
 #modalTrigger {
