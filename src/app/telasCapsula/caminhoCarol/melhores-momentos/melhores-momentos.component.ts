@@ -12,20 +12,20 @@ export class MelhoresMomentosComponent implements OnInit {
   // foto: string;
   // idDiv: string;
 
+  divAtual:any;
+
   constructor() { }
 
   ngOnInit(){
 
   }
-
   openDialog1() {
     $('#big1').click(function(){
       $('.modal').modal();
     });
 
-    $("img.thumbnail").click(function(ev){   
-    $("#replaceMeBig1").attr("src", $(ev.target).attr("src"));
-    });
+    this.divAtual = "#replaceMeBig1";
+
   }
 
   openDialog2 () {
@@ -33,9 +33,7 @@ export class MelhoresMomentosComponent implements OnInit {
       $('.modal').modal();
     });
 
-    $("img.thumbnail").click(function(ev){   
-    $("#replaceMeBig2").attr("src", $(ev.target).attr("src"));
-    });
+    this.divAtual = "#replaceMeBig2";
   }
 
   openDialog3 () {
@@ -43,9 +41,7 @@ export class MelhoresMomentosComponent implements OnInit {
       $('.modal').modal();
     });
 
-    $("img.thumbnail").click(function(ev){   
-    $("#replaceMeBig3").attr("src", $(ev.target).attr("src"));
-    });
+    this.divAtual = "#replaceMeBig3";
   }
 
   openDialog4 () {
@@ -53,9 +49,8 @@ export class MelhoresMomentosComponent implements OnInit {
       $('.modal').modal();
     });
 
-    $("img.thumbnail").click(function(ev){   
-    $("#replaceMeBig4").attr("src", $(ev.target).attr("src"));
-    });
+
+    this.divAtual = "#replaceMeBig4";
   }
 
   openDialog5 () {
@@ -63,9 +58,8 @@ export class MelhoresMomentosComponent implements OnInit {
       $('.modal').modal();
     });
 
-    $("img.thumbnail").click(function(ev){   
-    $("#replaceMeBig5").attr("src", $(ev.target).attr("src"));
-    });
+
+    this.divAtual = "#replaceMeBig5";
   }
 
   openDialog6 () {
@@ -73,9 +67,8 @@ export class MelhoresMomentosComponent implements OnInit {
       $('.modal').modal();
     });
 
-    $("img.thumbnail").click(function(ev){   
-    $("#replaceMeBig6").attr("src", $(ev.target).attr("src"));
-    });
+
+    this.divAtual = "#replaceMeBig6";
   }
 
   openDialog7 () {
@@ -83,9 +76,12 @@ export class MelhoresMomentosComponent implements OnInit {
       $('.modal').modal();
     });
 
-    $("img.thumbnail").click(function(ev){   
-    $("#replaceMeBig7").attr("src", $(ev.target).attr("src"));
-    });
+
+    this.divAtual = "#replaceMeBig7";
+  }
+
+  selecionarfoto(img){
+    $(this.divAtual).attr("src",img);
   }
 
 }

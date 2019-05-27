@@ -1,0 +1,80 @@
+/*nav*/
+
+nav {
+    position: fixed;
+ background-color: #11A5D3;
+ height: 50px;
+}
+  
+nav img {
+ position: relative;
+ left: 150px;
+ top: -5px;
+}
+
+nav .linkinicio {
+ position: relative;
+ left: 320px;
+ top: -8px;
+ font-size: 25px;
+ font-family: Arial, Helvetica, sans-serif;
+ list-style-type: none;
+}  
+
+nav .linkcategorias {
+  position: relative;
+  left: 400px;
+  top: -71px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+/* body */
+
+body {
+    background-color: #fcfcfc;
+}
+
+#circle {
+    position: fixed;
+    width: 658px;
+    height: 605px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+    background: #3BC8BC;
+    top: -300px;
+    left: -250px;
+}
+
+#titulo {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    top: 10px;
+    left: 50px;
+    color: white;
+}
+
+.linknovoarquivo {
+    padding-top: 550px;
+    padding-left: 1000px; 
+    
+}
+
+.linknovoarquivo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.modal {
+    border-radius: 50px;
+    border: 3px solid #11A5D3;
+    width: 1000px;
+}
+
+.modal li {
+    display: inline;
+    padding-left: 50px;
+}

@@ -3,6 +3,7 @@ declare var $: any;
 import * as $ from 'jquery';  
 
 
+
 @Component({
   selector: 'app-melhores-momentos-beta',
   templateUrl: './melhores-momentos-beta.component.html',
@@ -24,8 +25,8 @@ export class MelhoresMomentosBetaComponent implements OnInit {
   }
 
   close() {
-    var instance = M.Modal.getInstance(elem);
-    instance.close();
+      var instance = M.Modal.getInstance(elem);
+      instance.close();
   }
 } 
 

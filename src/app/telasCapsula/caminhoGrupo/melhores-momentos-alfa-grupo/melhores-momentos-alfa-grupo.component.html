@@ -1,0 +1,29 @@
+<body>
+    <div>
+        <div style="opacity:0.5" id="circle">
+            <div><p id="titulo">melhores<br>momentos</p></div>
+        </div>
+    </div>
+  <div style="opacity:0.5" class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"><img src="/assets/capsulabranca.png" alt="logo" width="130vw"></a>
+        <a routerLinkActive="active" routerLink="/telainicial" class="linkinicio"><li>Início</li></a>
+        <a routerLinkActive="active" routerLink="/categoriascapsulagrupo" class="linkcategorias"><li>Categorias</li></a>
+      </div>
+    </nav>
+  </div>
+  <div>
+      <div id="receiveFile">
+        <form action="/file-upload" class="dropzone">
+          <div class="fallback">
+            <input name="file" type="file" multiple />
+          </div>
+        </form>
+      </div>
+  </div>
+  <div>
+    <button routerLinkActive="active" routerLink="/melhoresmomentosgrupo" class="botaosalvar">salvar</button>
+  </div>
+
+</body>
