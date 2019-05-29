@@ -77,7 +77,7 @@ export class MelhoresMomentosGrupoComponent implements OnInit {
     });
 
 
-    this.divAtual = "#replaceMeBig1";
+    this.divAtual = "#replaceMeBig7";
   }
 
   selecionarfoto(img){

@@ -84,6 +84,11 @@ export class MelhoresMomentosComponent implements OnInit {
     $(this.divAtual).attr("src",img);
   }
 
+  selecionarvideo(video) {
+    $(this.divAtual).attr("src", video);
+  }
+  
+
 }
 
 

@@ -12,12 +12,13 @@ import { MelhoresMomentosAlfaComponent } from './telasCapsula/caminhoCarol/melho
 import { MelhoresMomentosBetaGrupoComponent } from './telasCapsula/caminhoGrupo/melhores-momentos-beta-grupo/melhores-momentos-beta-grupo.component';
 import { MelhoresMomentosAlfaGrupoComponent } from './telasCapsula/caminhoGrupo/melhores-momentos-alfa-grupo/melhores-momentos-alfa-grupo.component';
 import { MelhoresMomentosGrupoComponent } from './telasCapsula/caminhoGrupo/melhores-momentos-grupo/melhores-momentos-grupo.component';
+import { TelaboasvindasComponent } from './telasCapsula/telaboasvindas/telaboasvindas.component';
 
 
 
 const routes: Routes = [
 	{ path: 'telainicial', component: TelainicialComponent },
-	{ path: '', redirectTo: '/telainicial', pathMatch: 'full'},
+	{ path: '', redirectTo: '/telaboasvindas', pathMatch: 'full'},
 	{ path: 'edicaodestinatarios', component: DadosDestinatariosComponent},
 	{ path: 'edicaocapsula', component: DadosCapsulaComponent },
 	{ path: 'categoriascapsula', component: CategoriasCapsulaComponent},
@@ -28,6 +29,7 @@ const routes: Routes = [
 	{ path: 'melhoresmomentosbetagrupo', component: MelhoresMomentosBetaGrupoComponent},
 	{ path: 'melhoresmomentosalfagrupo', component: MelhoresMomentosAlfaGrupoComponent},
 	{ path: 'melhoresmomentosgrupo', component: MelhoresMomentosGrupoComponent},
+	{ path: 'telaboasvindas', component: TelaboasvindasComponent }
 
 ];
 

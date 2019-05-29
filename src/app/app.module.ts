@@ -17,6 +17,8 @@ import { MelhoresMomentosAlfaComponent } from './telasCapsula/caminhoCarol/melho
 import { MelhoresMomentosBetaGrupoComponent } from './telasCapsula/caminhoGrupo/melhores-momentos-beta-grupo/melhores-momentos-beta-grupo.component';
 import { MelhoresMomentosAlfaGrupoComponent } from './telasCapsula/caminhoGrupo/melhores-momentos-alfa-grupo/melhores-momentos-alfa-grupo.component';
 import { MelhoresMomentosGrupoComponent } from './telasCapsula/caminhoGrupo/melhores-momentos-grupo/melhores-momentos-grupo.component';
+import { TelaboasvindasComponent } from './telasCapsula/telaboasvindas/telaboasvindas.component';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { MelhoresMomentosGrupoComponent } from './telasCapsula/caminhoGrupo/melh
     MelhoresMomentosAlfaComponent,
     MelhoresMomentosBetaGrupoComponent,
     MelhoresMomentosAlfaGrupoComponent,
-    MelhoresMomentosGrupoComponent
+    MelhoresMomentosGrupoComponent,
+    TelaboasvindasComponent
   ],
   imports: [
     BrowserModule,

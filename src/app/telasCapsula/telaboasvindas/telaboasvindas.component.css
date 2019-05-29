@@ -1,0 +1,14 @@
+/* {
+    background-image: url("/assets/bemvindos.png");
+    width: 100%;
+    height: 100%
+} */
+
+img {
+}
+
+#botao {
+    border: 5px solid black;
+    width: 80px;
+    height: 30px;
+}

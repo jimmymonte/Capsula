@@ -25,8 +25,9 @@ export class MelhoresMomentosBetaGrupoComponent implements OnInit {
   }
 
   close() {
-      var instance = M.Modal.getInstance(elem);
-      instance.close();
+
+    var instance = M.Modal.getInstance(elem);
+    instance.close();
   }
 } 
 
