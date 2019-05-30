@@ -1,8 +1,8 @@
 <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo"><img src="/assets/capsulabranca.png" alt="logo" width="130vw"></a>
+      <a routerLinkActive="active" routerLink="/telainicial" class="brand-logo"><img src="/assets/capsulabranca.png" alt="logo" width="130vw"></a>
       <a routerLinkActive="active" routerLink="/edicaodestinatarios" class="brand-logo"><li><img src="/assets/engrenanembranca.png" alt="logo" width="40vw" class="engrenagem"></li></a>
-      <a routerLinkActive="active" routerLink="/telainicial" class="linkinicio"><li>Início</li></a>
+      <a routerLinkActive="active" routerLink="/telainicial" class="linkinicio"><li>início</li></a>
       <ul class ="navbardireita" id="nav-mobile" class="right hide-on-med-and-down">
       </ul>
     </div>
@@ -21,11 +21,11 @@
     </div>
     <div class="col s8">
         <div class="fixed fixed1">
-            <p>tesouros</p>
+            <p>saúde</p>
         </div>    
 
         <div class="fixed fixed2">
-            <p>relatos</p>
+            <p>fotos e vídeos</p>
         </div>
 
        
@@ -35,17 +35,17 @@
         </div>
 
         <div class="fixed fixed4">
-            <p>segredos</p>
+            <p>livros e filmes</p>
         </div>
 
         <div class="fixed fixed5">
-            <p>confissōes</p>
+           <br><p>educação e trabalho</p>
         </div>
     </div>
     <div class="col s2">                
         <div class="linksedicao">
-                <a data-target="modal2" class="modal-trigger" mat-button (click)="randomQuestion()"><h5>inspiraçoes</h5></a>
-            <a data-target="modal1" class="modal-trigger" mat-button (click)="openDialog()"><h5>criar nova categoria</h5></a>               
+                <a data-target="modal2" class="modal-trigger" mat-button (click)="randomQuestion()"><img src="./assets/lampadaazulcheia.png" width= "30px" heigth= "30px" style="position:fixed; right: 230px; bottom: 50px;"><h5>inspiraçoes</h5></a>
+            <a data-target="modal1" class="modal-trigger" mat-button (click)="openDialog()"><img src="./assets/maisazul.png" width= "25px" heigth= "25px" style="position:fixed; right: 235px; bottom: 10px;"><h5>criar nova categoria</h5></a>               
         </div>
         <div id="modal1" class="modal">
             <div class="modal-content">

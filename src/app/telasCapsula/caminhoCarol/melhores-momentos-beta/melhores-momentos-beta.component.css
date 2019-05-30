@@ -23,8 +23,8 @@ nav .linkinicio {
 
 nav .linkcategorias {
   position: relative;
-  left: 450px;
-  top: -71px;
+  left: 400px;
+  top: -72.5px;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   list-style-type: none;
@@ -33,6 +33,10 @@ nav .linkcategorias {
 /* body */
 
 body {
+    background-color: #fcfcfc;
+}
+
+html {
     background-color: #fcfcfc;
 }
 

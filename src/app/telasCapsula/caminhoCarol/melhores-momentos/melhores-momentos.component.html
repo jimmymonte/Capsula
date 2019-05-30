@@ -1,11 +1,5 @@
 <head>
-            <script>
-                        $(document).ready(function() {
-                        $("#replaceMeBig7").click(function(){
-                        $(this).text($(this).text() == 'texto' ? 'texto de exemplo 1' : 'texto de exemplo 1' );
-                          });
-                        });
-            </script>
+
 </head>
 
 <body>
@@ -17,9 +11,9 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo"><img src="/assets/capsulabranca.png" alt="logo" width="130vw"></a>
-        <a routerLinkActive="active" routerLink="/telainicial" class="linkinicio"><li>Início</li></a>
-        <a routerLinkActive="active" routerLink="/categoriascapsula" class="linkcategorias"><li>Categorias</li></a>
+        <a routerLinkActive="active" routerLink="/telainicial" class="brand-logo"><img src="/assets/capsulabranca.png" alt="logo" width="130vw"></a>
+        <a routerLinkActive="active" routerLink="/telainicial" class="linkinicio"><li>início</li></a>
+        <a routerLinkActive="active" routerLink="/categoriascapsula" class="linkcategorias"><li>categorias</li></a>
       </div>
     </nav>
   </div>
@@ -117,7 +111,8 @@
 
 
   <div class="big7" id="big7">
-        <div id="replaceMeBig7"><a><h1>Exemplo texto</h1></a>
+        <div id="replaceMeBig7" (click)="trocaTexto"><a><p style="font-size:27px; color: #707070"><br>Minha filha querida,
+            no momento em que você estiver recebendo isso seu pai não estará mais aí com você de corpo presente. Apesar disso, quero que saiba que nunca te deixarei. Mesmo após a minha partida, continuarei vivendo através de você, meu maior tesouro e aquilo que tenho mais orgulho em todo mundo. Quero que saiba que nenhum dos nossos desentendimentos importa, que nada de ruim…</p></a>
         </div>
         <!--img id="replaceMeBig7">
         <a id="modalTrigger" data-target="modal1" class="modal-trigger" mat-button (click)="openDialog7()">

@@ -88,6 +88,12 @@ export class MelhoresMomentosComponent implements OnInit {
     $(this.divAtual).attr("src", video);
   }
   
+  trocaTexto() {
+
+    $("#replaceMeBig7").click(function(){
+    $(this).text($(this).text() == 'Exemplo texto' ? 'texto de exemplo 1' : 'texto de exemplo 1' );
+      });
+  }
 
 }
 
